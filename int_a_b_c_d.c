@@ -10,14 +10,16 @@ int main() {
             conditionMet = 1;
             printf("Condition 1 met\n");
         }
-    } else if (a <= b) {
+    }
+    if (a <= b) {
         if (c <= d) {
-            conditionMet = 2;
+            conditionMet = 1;
             printf("Condition 2 met\n");
         }
-    } else if (a == b) {
+    } 
+    if (a == b) {
         if (c > d) {
-            conditionMet = 3;
+            conditionMet = 1;
             printf("Condition 3 met\n");
         }
         else {
