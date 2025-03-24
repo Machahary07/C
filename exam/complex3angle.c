@@ -1,6 +1,4 @@
-// WAP to print the below triangle:
-//     X 
-//   X X X 
+// WAP to print the below triangle: 
 // X X X X X 
 //   X X X
 //     X 
