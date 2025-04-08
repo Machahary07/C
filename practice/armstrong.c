@@ -15,11 +15,11 @@ int main() {
     temp = n;
 
     // Count digits
-    for (int t = n; t; t /= 10) power++;
+    for (int i = n;i; i /= 10) power++;
 
     // Calculate Armstrong sum
-    for (int t = n; t; t /= 10) {
-        digit = t % 10;
+    for (int i = n;i; i /= 10) {
+        digit = i % 10;
         sum += pow(digit, power);
     }
 
