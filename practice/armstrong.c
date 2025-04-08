@@ -1,13 +1,9 @@
 //WAP in c to check if the input is amrstrong or not
-
-#include <stdio.h>
-#include <math.h>
-
 #include <stdio.h>
 #include <math.h>
 
 int main() {
-    int n, temp, digit, power = 0;
+    int n, temp, rem, power = 0;
     double sum = 0;
 
     printf("Enter a number: ");
@@ -19,8 +15,8 @@ int main() {
 
     // Calculate Armstrong sum
     for (int i = n;i; i /= 10) {
-        digit = i % 10;
-        sum += pow(digit, power);
+        rem = i % 10;
+        sum += pow(rem, power);
     }
 
     if ((int)sum == n)
