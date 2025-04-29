@@ -1,17 +1,17 @@
-//wap in c to input a term and find the sum of digits of the term
+//wap in c to input a term and find the sum of rs of the term
 #include <stdio.h>
 
 int main() {
-    int n, sum = 0, digit;
+    int n, sum = 0, r;
     printf("Enter a number: ");
     scanf("%d", &n);
 
     while (n != 0) {
-        digit = n % 10; // Get the last digit
-        sum += digit;   // Add it to the sum
-        n /= 10;        // Remove the last digit
+        r = n % 10; 
+        sum += r;   
+        n /= 10;        
     }
 
-    printf("Sum of digits: %d\n", sum);
+    printf("Sum of rs: %d\n", sum);
     return 0;
 }
