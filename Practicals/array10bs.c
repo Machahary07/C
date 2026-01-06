@@ -1,0 +1,1 @@
+//create an array of size 10, enter 10 variables to the array, bubble sort, add a new 

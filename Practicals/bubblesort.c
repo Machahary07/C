@@ -7,14 +7,14 @@
 int main() {
     int arr[20];   // allow extra space for new element
     int n = 10;    // initial size = 10
-    int i, j, temp, newElement;
+    int i, j, t, nE;
 
     // Step 1: Ask user to input array of size 10
     printf("Enter 10 integers (separated by spaces):\n");
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
+ 
     // Display initial array
     printf("\nInitial array: ");
     for (i = 0; i < n; i++) {
@@ -26,9 +26,9 @@ int main() {
     for (i = 0; i < n - 1; i++) {
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                temp = arr[j];
+                t = arr[j];
                 arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                arr[j + 1] = t;
             }
         }
     }
@@ -42,17 +42,17 @@ int main() {
 
     // Step 3: Ask for new element
     printf("\nEnter the new element to insert at the beginning: ");
-    scanf("%d", &newElement);
+    scanf("%d", &nE);
 
     // Shift all elements to the right
     for (i = n; i > 0; i--) {
         arr[i] = arr[i - 1];
     }
-    arr[0] = newElement;
+    arr[0] = nE;
     n++; // array size increased
 
     // Step 4: Display final array
-    printf("\nFinal array after inserting %d at beginning: ", newElement);
+    printf("\nFinal array after inserting %d at beginning: ", nE);
     for (i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
