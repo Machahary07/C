@@ -21,7 +21,7 @@ int main() { //main function
     }
 
     do {
-        printf("\n1.Add\n2.Search\n3.Delete\n4.Exit\nChoice: ");
+        printf("\n1.Add\n2.Search\n3.Delete\n4.Print_Existing_Students_Lists\n5.Exit\nChoice: ");
         scanf("%d", &choice);
 
         if (choice == 1) {
@@ -38,10 +38,10 @@ int main() { //main function
             rewind(fp); //rewind(fp) sets the file position to the beginning of the file to start reading from the start and print the records
             found = 0;
 
-            while (fread(&s, sizeof(s), 1, fp)) {
+            while (fread(&s, sizeof(s), 1, fp)) { //fread reads data from the file into the structure. fread takes 4 arguments: pointer to data, size of each element, number of elements, file pointer
                 if (s.roll == key) {
                     printf("Found → %s %d\n", s.name, s.roll);
-                    found = 1;
+                    found = 1; // set found flag to true (1 means true)
                     break;
                 }
             }
@@ -53,7 +53,7 @@ int main() { //main function
             printf("Enter roll to delete: ");
             scanf("%d", &key);
 
-            temp = fopen("temp.dat", "w");
+            temp = fopen("temp.dat", "w"); //open temporary file in write mode. fopen takes two arguments: filename and mode. w creates an empty file for writing.
             rewind(fp);
             found = 0;
 
@@ -77,7 +77,15 @@ int main() { //main function
                 printf("Not found\n");
         }
 
-    } while (choice != 4);
+        else if (choice == 4) {
+            printf("Existing Students List:\n");
+            rewind(fp); //set file position to the beginning
+            while (fread(&s, sizeof(s), 1, fp)) { //read each record from file
+                printf("Name: %s, Roll: %d\n", s.name, s.roll); //print student details
+            }
+        }
+
+    } while (choice != 5);
 
     fclose(fp);
     return 0;
