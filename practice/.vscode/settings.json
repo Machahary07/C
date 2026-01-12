@@ -1,0 +1,11 @@
+{
+  "[c]": {
+    "editor.inlineSuggest.enabled": false
+  },
+  "[cpp]": {
+    "editor.inlineSuggest.enabled": false
+  },
+  "[javascript]": {
+    "editor.inlineSuggest.enabled": false
+  }
+}
