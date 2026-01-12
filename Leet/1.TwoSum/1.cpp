@@ -12,11 +12,12 @@ public:
                 }
             }
         }
+        return {};
     }
 };
 
 int main() {
-    Solution sol;
+    Solution sol; //here sol is an object of class Solution
     vector<int> nums = {2,7,11,15};
     int target = 9;
     vector<int> result = sol.twoSum(nums, target);
