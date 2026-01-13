@@ -1,3 +1,4 @@
+// leetcode template of javscript function:
 var sumOfTwo = function(a, b) {
     return a + b;
 };
@@ -9,6 +10,7 @@ console.log(sumOfTwo(3, 5));
 // function sumOfTwo(a, b) {
 //     return a + b;
 // }
+// Use function for teaching purposes.
 
 // Cleaner version using arrow function.
 // const sumOfTwo = (a, b) => a + b;
