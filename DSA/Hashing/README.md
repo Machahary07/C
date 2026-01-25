@@ -1,15 +1,23 @@
+https://leetcode.com/problem-list/hash-table/ filter by Last Submitted Time
+
+Basically, the concept of hashing is to store and retrieve data in constant time "O(n(1))" by using a key.
+
+## Example:
+Without hashing, finding information is like searching a notebook page by page—if you want to know how many times a word appears, you must read every page from start to end, which is slow. With hashing, you first create an index that maps each word directly to its page or count; now, when you want the same information, you jump straight to the exact location in one step. In short, hashing replaces slow searching with fast direct access.
+
 ## 🟢 Easy (Foundation Builders)
 
 | Sl No. | Topic | LeetCode Link |
 |------|------|---------------|
-| 1 | Two Sum | https://leetcode.com/problems/two-sum/ |
-| 2 | Contains Duplicate | https://leetcode.com/problems/contains-duplicate/ |
+| 1 | Two Sum | https://leetcode.com/problems/two-sum/ | ✅
+| 2 | Contains Duplicate | https://leetcode.com/problems/contains-duplicate/ | ✅
 | 3 | Single Number | https://leetcode.com/problems/single-number/ |
 | 4 | Intersection of Two Arrays | https://leetcode.com/problems/intersection-of-two-arrays/ |
 | 5 | First Unique Character in a String | https://leetcode.com/problems/first-unique-character-in-a-string/ |
-| 6 | Majority Element | https://leetcode.com/problems/majority-element/ |
+| 6 | Majority Element | https://leetcode.com/problems/majority-element/ | ✅
 | 7 | Check if Array Is Subset of Another Array | https://leetcode.com/problems/is-subsequence/ |
 | 8 | Find Frequency of Elements | https://leetcode.com/problems/sort-array-by-increasing-frequency/ |
+| 9 | n-repeated-element-in-size-2n-array | https://leetcode.com/problems/n-repeated-element-in-size-2n-array/ | ✅
 
 
 ## 🟡 Medium (Interview Core)
