@@ -1,3 +1,4 @@
+//lc 1
 //solving twoSum problem using hashing to understand hashing concept
 
 var twoSum = function (nums, target) {
