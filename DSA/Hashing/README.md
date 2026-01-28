@@ -7,43 +7,48 @@ Without hashing, finding information is like searching a notebook page by page�
 
 ## 🟢 Easy (Foundation Builders)
 
-| Sl No. | Topic | LeetCode Link |
-|------|------|---------------|
-| 1 | Two Sum | https://leetcode.com/problems/two-sum/ | ✅
-| 2 | Contains Duplicate | https://leetcode.com/problems/contains-duplicate/ | ✅
-| 3 | Single Number | https://leetcode.com/problems/single-number/ |
-| 4 | Intersection of Two Arrays | https://leetcode.com/problems/intersection-of-two-arrays/ |
-| 5 | First Unique Character in a String | https://leetcode.com/problems/first-unique-character-in-a-string/ |
-| 6 | Majority Element | https://leetcode.com/problems/majority-element/ | ✅
-| 7 | Check if Array Is Subset of Another Array | https://leetcode.com/problems/is-subsequence/ |
-| 8 | Find Frequency of Elements | https://leetcode.com/problems/sort-array-by-increasing-frequency/ |
-| 9 | n-repeated-element-in-size-2n-array | https://leetcode.com/problems/n-repeated-element-in-size-2n-array/ | ✅
+| Sl No. | Topic | LeetCode Link | CheckBox |
+|------|------|---------------|----|
+| 1 | 🟣 Two Sum | https://leetcode.com/problems/two-sum/ | ✅ |
+| 2 | Contains Duplicate | https://leetcode.com/problems/contains-duplicate/ | ✅ |
+| 3 | Single Number | https://leetcode.com/problems/single-number/ | ✅ |
+| 4 | Intersection of Two Arrays | https://leetcode.com/problems/intersection-of-two-arrays/ | |
+| 5 | First Unique Character in a String | https://leetcode.com/problems/first-unique-character-in-a-string/ | |
+| 6 | Majority Element | https://leetcode.com/problems/majority-element/ | ✅ |
+| 7 | Find Frequency of Elements | https://leetcode.com/problems/sort-array-by-increasing-frequency/ | |
+| 8 | n-repeated-element-in-size-2n-array | https://leetcode.com/problems/n-repeated-element-in-size-2n-array/ | ✅ |
+| 9 | Valid Anagram | https://leetcode.com/problems/valid-anagram/ | ✅ |
 
 
-## 🟡 Medium (Interview Core)
+## 🟡 Medium (Interview Core • Hashmap Heavy)
 
-| Sl No. | Topic | LeetCode Link |
-|------|------|---------------|
-| 1 | Group Anagrams | https://leetcode.com/problems/group-anagrams/ |
-| 2 | Top K Frequent Elements | https://leetcode.com/problems/top-k-frequent-elements/ |
-| 3 | Subarray Sum Equals K | https://leetcode.com/problems/subarray-sum-equals-k/ |
-| 4 | Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/ |
-| 5 | Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |
-| 6 | 4Sum II | https://leetcode.com/problems/4sum-ii/ |
-| 7 | Find All Duplicates in an Array | https://leetcode.com/problems/find-all-duplicates-in-an-array/ |
-| 8 | Isomorphic Strings | https://leetcode.com/problems/isomorphic-strings/ |
-| 9 | Word Pattern | https://leetcode.com/problems/word-pattern/ |
-| 10 | Minimum Window Substring | https://leetcode.com/problems/minimum-window-substring/ |
+| Sl No. | Topic | LeetCode Link | CheckBox |
+|------|------|---------------|--|
+| 1 | 🟣 Group Anagrams | https://leetcode.com/problems/group-anagrams/ | |
+| 2 | 🟣 Top K Frequent Elements | https://leetcode.com/problems/top-k-frequent-elements/ | |
+| 3 | Encode and Decode Strings | https://leetcode.com/problems/encode-and-decode-strings/ | |
+| 4 | Valid Sudoku | https://leetcode.com/problems/valid-sudoku | |
+| 5 | 🟣 Subarray Sum Equals K | https://leetcode.com/problems/subarray-sum-equals-k/ | |
+| 6 | Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-consecutive-sequence | |
+| 7 | Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ | |
+| 8 | 4Sum II | https://leetcode.com/problems/4sum-ii/ | |
+| 9 | Find All Duplicates in an Array | https://leetcode.com/problems/find-all-duplicates-in-an-array/ | |
+| 10 | Isomorphic Strings | https://leetcode.com/problems/isomorphic-strings/ | |
+| 11 | Word Pattern | https://leetcode.com/problems/word-pattern/ | |
+| 12 | Minimum Window Substring | https://leetcode.com/problems/minimum-window-substring/ | |
 
 
 ## 🔴 Hard (Separates Boys from Offers)
 
-| Sl No. | Topic | LeetCode Link |
-|------|------|---------------|
-| 1 | Count of Subarrays With Equal 0s and 1s | https://leetcode.com/problems/contiguous-array/ |
-| 2 | Longest Subarray With Sum = 0 | https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/ |
-| 3 | Max Points on a Line | https://leetcode.com/problems/max-points-on-a-line/ |
-| 4 | Substring With Concatenation of All Words | https://leetcode.com/problems/substring-with-concatenation-of-all-words/ |
-| 5 | Palindrome Pairs | https://leetcode.com/problems/palindrome-pairs/ |
-| 6 | Smallest Range Covering Elements From K Lists | https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/ |
-| 7 | LFU Cache | https://leetcode.com/problems/lfu-cache/ |
+| Sl No. | Topic | LeetCode Link | CheckBox |
+|------|------|---------------|--|
+| 1 | Count of Subarrays With Equal 0s and 1s | https://leetcode.com/problems/contiguous-array/ | |
+| 2 | Longest Subarray With Sum = 0 | https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/ | |
+| 3 | Max Points on a Line | https://leetcode.com/problems/max-points-on-a-line/ | |
+| 4 | Substring With Concatenation of All Words | https://leetcode.com/problems/substring-with-concatenation-of-all-words/ | |
+| 5 | Palindrome Pairs | https://leetcode.com/problems/palindrome-pairs/ | |
+| 6 | Smallest Range Covering Elements From K Lists | https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/ | |
+| 7 | 🟣 LFU Cache | https://leetcode.com/problems/lfu-cache/ | |
+
+## 🟣 Top 5 overall (must-master):
+Two Sum, Group Anagrams, Top K Frequent, Subarray Sum = K, LFU Cache
