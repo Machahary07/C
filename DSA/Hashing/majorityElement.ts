@@ -32,3 +32,6 @@ function majorityElement(nums: number[]): number {
     }
     return -1; // This line will never be reached as per problem constraints
 }
+
+// Example usage:
+console.log(majorityElement([2, 2, 1, 1, 1, 2, 2])); // Output: 2
